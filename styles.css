@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Mania;
+    src: url("files/mania.ttf")
+}
+@font-face {
+	font-family: Andes;
+    src: url("files/andes.ttf")
+}
+body {
+background-image: url('files/background.png');
+background-attachment: fixed;
+background-size: cover;
+font-family: Mania;
+color: rgb(216, 0, 32);
+text-align: Center;
+}
