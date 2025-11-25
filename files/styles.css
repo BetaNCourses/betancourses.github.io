@@ -1,0 +1,154 @@
+/*
+
+*/
+
+@font-face {
+    font-family: SKCredtis;
+	src: url("fonts/sonic-and-knuckles.otf");
+}
+
+@font-face {
+    font-family: Plaza;
+	src: url("fonts/Plaza Regular.ttf");
+}
+
+@font-face {
+    font-family: Righteous;
+	src: url("fonts/Righteous.ttf");
+}
+
+@font-face {
+    font-family: GHSans;
+	src: url("fonts/Green-Hill-Sans.ttf");
+}
+
+@font-face {
+    font-family: UTDR;
+	src: url("fonts/determination.ttf");
+}
+
+body {
+	font-family: GHSans;
+	font-size: 14;
+	padding: 20px;
+	background-attachment: fixed; 
+	background-size: cover;
+	background-color: #000000;
+}
+
+h1,
+h2,
+h3 {
+	color: #000000;
+	text-shadow: 2px 2px 0px #fcfcfc;
+}
+
+h1 {
+	font-size: 25px;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	padding: 10px;
+	text-align: center;
+	color: #000000; 
+}
+
+* {
+	box-sizing: border-box;
+}
+
+hr {
+	height: 3px;
+	width: 90%;
+	text-align: center;
+	background-color: #000000;
+	border-width: 0;
+}
+
+#headtext {
+	text-align: center; 
+	font-family: Plaza; 
+	font-size: 64;
+}
+
+#container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+#navbar {
+	height: 50px;
+	width: 100%;
+	border: 4px solid #fcfc00;
+	background-color: #fcfcfc;
+	box-shadow: 4px 4px 0px #000000;
+}
+
+#navbar ul {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	justify-content: space-evenly;
+}
+
+li {
+	padding-top: 10px;
+}
+
+#flex {
+	display: flex;
+}
+			
+aside {
+	width: 200px;
+	padding: 20px;
+	font-size: smaller;
+	border: 4px solid #fcfc00;
+	box-shadow: 4px 4px 0px #000000;
+}
+
+main {
+	flex: 1;
+	padding: 20px;
+	order: 2;
+	border: 4px solid #fcfc00;
+	box-shadow: 4px 4px 0px #000000;
+}
+
+.box {
+	border: 4px solid #fcfc00;
+	box-shadow: 4px 4px 0px #000000;
+	background-color: #b4b4b4;
+	padding: 10px;
+}
+
+#topBar {
+	color: #fcfc00;
+	text-shadow: 2px 2px 0px #fc9000;
+	width: 100%;
+	height: 30px;
+	padding: 10px;
+	font-size: 12px;
+	text-align: center;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+	#flex {
+		flex-wrap: wrap;
+	}
+
+	aside {
+		width: 100%;
+	}
+
+	#navbar ul {
+		flex-wrap: wrap;
+	}
+}
